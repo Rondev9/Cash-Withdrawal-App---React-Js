@@ -1,0 +1,89 @@
+.CashWithdrawalAppContainer {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.CashWithdrawalHomeContainer {
+  background-color: #150b3e;
+  background-size: cover;
+  border-radius: 15px;
+  padding: 30px;
+  min-width: 400px;
+  max-width: 400px;
+}
+.AccountHolderContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+.profileContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  background-size: cover;
+  border-radius: 30px;
+  height: 50px;
+  width: 50px;
+  font-family: 'Roboto';
+  color: #7c3aed;
+  font-size: 12px;
+  margin-right: 12px;
+}
+.AccountHolderName {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #d4d2db;
+}
+.BalanceContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.BalanceTitle {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #585076;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.BalanceMoneyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+.digitsContainer {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #c4c4c4;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.rupeesContainer {
+  color: #585076;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.WithdrawTitle {
+  color: #c4c4c4;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+}
+.withdrawDetails {
+  color: #585076;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.withdrawalOptionsContainer {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+}
